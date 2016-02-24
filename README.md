@@ -15,3 +15,4 @@
 ## Including other files and templates
 
 - always use absolute paths like `components/header/header.html.swig`
+- includes are working also inside a for loop, like `{% include 'components/article-' + i + '/article-' + i + '.html.swig' %}`
