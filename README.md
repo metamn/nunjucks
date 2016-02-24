@@ -14,4 +14,5 @@ Parent JSON is accessible to descendants **ONLY** on its own level
 ## Including other files and templates
 
 - always use absolute paths like `components/header/header.html.swig`
+- couldn't implement relative paths: https://github.com/mozilla/nunjucks/pull/349
 - includes are working also inside a for loop, like `{% include 'components/article-' + i + '/article-' + i + '.html.swig' %}`
