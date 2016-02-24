@@ -1,1 +1,1 @@
-logo
+logo ({{ logo_name }}, {{ name }})
