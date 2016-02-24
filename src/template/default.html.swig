@@ -1,10 +1,3 @@
-{% block header %}
-  This is the header
-{% endblock %}
-
+{% include 'components/header/header.html.swig' %}
 
 {% block content %}{% endblock %}
-
-{% block header %}
-  This is the footer
-{% endblock %}
